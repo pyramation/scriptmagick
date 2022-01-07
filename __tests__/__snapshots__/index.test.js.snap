@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`composeImages case: 1 1`] = `"convert -page +0+0 d -page +0+0 c -page +0+0 b -page +0+0 a -layers flatten out"`;
+
+exports[`maskImage case: 1 1`] = `"convert mask obj -alpha on -compose CopyOpacity -composite out"`;
+
+exports[`replaceColor case: 1 1`] = `"convert in -fuzz 42% -fill \\"replace\\" -opaque \\"find\\" out"`;
